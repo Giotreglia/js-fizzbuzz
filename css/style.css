@@ -6,6 +6,14 @@
 
 body {
     background-color: rgba(3, 3, 54, 0.959);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    margin: 50px;
 }
 
 .container {
@@ -16,13 +24,27 @@ body {
 }
 
 .square {
-    height: 80px;
-    width: 80px;
+    height: 180px;
+    width: 180px;
     margin: 10px;
-    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fizz {
+    background-color: rgb(11, 214, 160);
+}
+
+.buzz {
+    background-color: rgb(255, 209, 102);
+}
+
+.fizzbuzz {
+    background-color: rgb(240, 70, 111);
+}
+
+.i {
+    background-color: rgb(19, 137, 178);
 }

@@ -16,9 +16,11 @@ for (let i = 1; i <= 100; i++) {
         const squareDom = `<div class="square">FizzBuzz</div>`;
         containerDom.innerHTML += squareDom; */
 
-        ////Se divisibile per 3*5 mostra FizzBuzz con creazione dinamica elementi
+        /* Se divisibile per 3*5 crea un div e mostra FizzBuzz 
+        con creazione dinamica elementi */        
         const squareDom = document.createElement("div");
         squareDom.classList.add("square");
+        squareDom.classList.add("fizzbuzz");
         squareDom.append("FizzBuzz");
         containerDom.append(squareDom);
 
@@ -30,11 +32,15 @@ for (let i = 1; i <= 100; i++) {
         const squareDom = `<div class="square">Buzz</div>`;
         containerDom.innerHTML += squareDom; */
 
-        //Se divisibile per 5 mostra Buzz con creazione dinamica elementi
+        /* Se divisibile per 5 crea un div e mostra Buzz 
+        con creazione dinamica elementi */
         const squareDom = document.createElement("div");
         squareDom.classList.add("square");
+        squareDom.classList.add("buzz");
         squareDom.append("Buzz");
         containerDom.append(squareDom);
+
+
 
     } else if (i % 3 == 0) {
 
@@ -42,11 +48,15 @@ for (let i = 1; i <= 100; i++) {
         const squareDom = `<div class="square">Fizz</div>`;
         containerDom.innerHTML += squareDom; */
 
-        //Se divisibile per 3 mostra Fizz con creazione dinamica elementi
+        /*Se divisibile per 3 crea un div e 
+        mostra Fizz con creazione dinamica elementi */
         const squareDom = document.createElement("div");
         squareDom.classList.add("square");
+        squareDom.classList.add("fizz");
         squareDom.append("Fizz");
         containerDom.append(squareDom);
+
+
 
     } else {
 
@@ -57,6 +67,7 @@ for (let i = 1; i <= 100; i++) {
         //Altrimenti mostra i con creazione dinamica elementi
         const squareDom = document.createElement("div");
         squareDom.classList.add("square");
+        squareDom.classList.add("i");
         squareDom.append(i);
         containerDom.append(squareDom);
 
