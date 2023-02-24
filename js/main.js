@@ -6,7 +6,7 @@
         se i è divisibile per entrambi mostra "FizzBuzz"
 */
 
-const containerDom = document.querySelector(".container");
+const containerDom = document.querySelector(".squares-container");
 
 for (let i = 1; i <= 100; i++) {
 
